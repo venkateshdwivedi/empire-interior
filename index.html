@@ -1,0 +1,1021 @@
+<!doctype html>
+<html lang="en-IN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Empire Interior Design Studio — Home interiors in Pune</title>
+<meta name="description" content="Full-home interior design for flats in and around Pune — living-room feature walls, lit niches, wardrobes, false ceilings and space-saving joinery. Open Mon–Sat 10am–8pm. Call 098609 96046.">
+<meta property="og:title" content="Empire Interior Design Studio — Home interiors in Pune">
+<meta property="og:description" content="Living-room feature walls, lit niches, wardrobes and the table that folds flat into the wall. Interiors for flats across Pune. Mon–Sat 10am–8pm. Call 098609 96046.">
+<meta property="og:type" content="website">
+<meta property="og:image" content="img/og-image.jpg">
+<meta name="theme-color" content="#21190F">
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"HomeAndConstructionBusiness","additionalType":"https://en.wikipedia.org/wiki/Interior_design","name":"Empire Interior Design Studio","alternateName":["एम्पायर इंटीरियर डिजाइन स्टूडियो"],"telephone":"+91-98609-96046","areaServed":"Pune, Maharashtra","url":"https://www.google.com/maps/place/?q=place_id:ChIJ895kbyQuE20R21FoXTAyogU","hasMap":"https://www.google.com/maps/place/?q=place_id:ChIJ895kbyQuE20R21FoXTAyogU","sameAs":["https://wa.me/919860996046"],"openingHoursSpecification":[{"@type":"OpeningHoursSpecification","dayOfWeek":["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"],"opens":"10:00","closes":"20:00"}],"image":"img/og-image.jpg"}
+</script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Marcellus&family=Mulish:wght@400;600;700&family=Hind:wght@400;500&display=swap" rel="stylesheet">
+<style>
+:root{
+  /* five values measured by eye from Empire's own owner photos (see DIRECTION.md §3) */
+  --sand:#EFE4CC;      /* limestone — warm gold-parchment page */
+  --ink:#21190F;       /* espresso — text + the darkest (build) section */
+  --walnut:#4E3826;    /* deep warm brown — the Find-us block */
+  --peacock:#235E62;   /* cool jewel accent + the reviews block */
+  --brass:#C0893B;     /* gold accent + cove hairline */
+  --sign:#235E62;      /* primary action = peacock */
+  --muted:#6B5A45; --line:#DBCFB2; --paper:#F4ECD8; --paperdeep:#E7DABB; --glow:#F0CC86;
+  --display:"Marcellus", Georgia, serif;
+  --body:"Mulish", "Segoe UI", sans-serif;
+  --seam:clamp(12px,1.8vw,20px);
+  --wrap:1180px; --gut:clamp(16px,4vw,40px);
+}
+*{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%;scroll-padding-top:80px}
+body{margin:0;background:var(--sand);color:var(--ink);font:400 17px/1.62 var(--body)}
+img,canvas{display:block;max-width:100%}
+a{color:inherit}
+h1,h2,h3{font-family:var(--display);font-weight:400;line-height:1.08;margin:0;letter-spacing:.002em}
+p{margin:0}
+:focus-visible{outline:3px solid var(--peacock);outline-offset:3px;border-radius:2px}
+.build :focus-visible,.reviews :focus-visible,.visit :focus-visible,.foot :focus-visible,.bar :focus-visible{outline-color:var(--glow)}
+.skip{position:absolute;left:-999px;top:8px;background:var(--ink);color:var(--sand);padding:10px 14px;z-index:100}
+.skip:focus{left:8px}
+.wrap{max-width:var(--wrap);margin:0 auto;padding:0 var(--gut)}
+
+/* Warm cove reveal (static motif): a brass hairline at each section seam with a soft glow
+   rising continuously into the block above — the reveal Empire runs between ceiling and
+   wall. A gradient wash, not a strip of dots. */
+.seam{position:relative}
+.seam::before{content:"";position:absolute;left:0;right:0;bottom:100%;height:var(--seam);
+  background:linear-gradient(to top,rgba(192,137,59,.5),rgba(192,137,59,0));pointer-events:none}
+.seam::after{content:"";position:absolute;left:0;right:0;bottom:100%;height:2px;
+  background:var(--brass);opacity:.85;pointer-events:none}
+.rib{height:2px;background:var(--brass);opacity:.85}
+
+/* project-sequence labels, with a small arched-niche marker */
+.seq{display:flex;align-items:center;gap:11px;font:700 13px/1.2 var(--body);letter-spacing:.13em;text-transform:uppercase;color:var(--muted);margin:0 0 18px}
+.seq::before{content:"";flex:none;width:20px;height:10px;background:var(--brass);border-radius:20px 20px 0 0}
+.build .seq,.reviews .seq,.visit .seq{color:var(--sand)}
+.build .seq::before,.reviews .seq::before,.visit .seq::before{background:var(--glow)}
+
+/* buttons */
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:.5em;min-height:48px;padding:0 20px;border:0;border-radius:0;font:600 16px/1 var(--body);text-decoration:none;cursor:pointer}
+.btn-call{background:var(--sign);color:#fff}
+.btn-call:hover{background:#18474A}
+.btn-ghost{background:transparent;color:var(--ink);box-shadow:inset 0 0 0 2px var(--ink)}
+.btn-ghost:hover{background:var(--ink);color:var(--sand)}
+.btn svg{width:18px;height:18px;flex:none}
+
+/* header — structure unchanged from the proven build, colours only (solid background) */
+.top{position:sticky;top:0;z-index:20;background:var(--sand);border-bottom:1px solid var(--line)}
+.top .wrap{display:flex;align-items:center;justify-content:space-between;gap:16px;min-height:68px}
+.brand{text-decoration:none;display:flex;flex-direction:column;line-height:1}
+.brand b{font:400 26px/1 var(--display);letter-spacing:.01em}
+.brand span{font:400 13px/1.3 "Hind",serif;color:var(--muted);margin-top:4px}
+.nav{display:flex;gap:24px;font-weight:600;font-size:15px}
+.nav a{text-decoration:none}
+.nav a:hover{text-decoration:underline;text-underline-offset:4px}
+@media (max-width:900px){.nav{display:none}}
+@media (max-width:460px){
+  .top .btn-call .num{display:none}
+  .brand b{font-size:21px;white-space:nowrap}
+  .brand span{font-size:11px}
+}
+@media (max-width:360px){.brand b{font-size:18px}.brand span{font-size:10px}}
+
+/* hero */
+.hero{padding:clamp(40px,7vw,96px) 0 clamp(56px,8vw,96px)}
+.hero .wrap{display:grid;grid-template-columns:1.15fr .85fr;gap:clamp(32px,5vw,72px);align-items:start}
+@media (max-width:900px){.hero .wrap{grid-template-columns:1fr}}
+.hero h1{font-size:clamp(33px,4.4vw,56px);max-width:16ch;line-height:1.08;text-wrap:balance}
+.hero h1 em{font-style:normal;color:var(--peacock);display:block}
+.lede{font-size:clamp(18px,1.6vw,21px);max-width:40ch;margin-top:26px;color:#3A2E1F}
+.proof{display:flex;flex-wrap:wrap;gap:8px 24px;margin-top:26px;font-size:15px}
+.proof a{font-weight:600}
+.stars{color:#9A6417;letter-spacing:2px}
+.hero-actions{display:flex;flex-wrap:wrap;gap:12px;margin-top:30px}
+.hero-ph{margin:clamp(28px,4vw,44px) 0 0;max-width:430px}
+.narrow-only{display:none}
+@media (max-width:900px){.hero-ph{display:none}.narrow-only{display:block}}
+
+/* form */
+.quote{background:var(--paper);border:1px solid var(--line);border-top:0;padding:0 0 28px}
+.quote .rib{margin-bottom:24px}
+.quote-in{padding:0 clamp(18px,3vw,32px)}
+.quote h2{font-size:clamp(25px,2.5vw,32px)}
+.quote .hint{color:var(--muted);font-size:15px;margin-top:8px}
+.field{margin-top:18px}
+.field label,.field legend{display:block;font-weight:600;font-size:15px;margin-bottom:6px;padding:0}
+.field .opt{font-weight:400;color:var(--muted)}
+.field input,.field select{width:100%;min-height:48px;padding:10px 12px;border:1.5px solid #8A7C64;border-radius:0;background:#fff;color:var(--ink);font:400 17px/1.3 var(--body)}
+.field input:focus,.field select:focus{border-color:var(--peacock)}
+fieldset{border:0;margin:0;padding:0;min-width:0}
+.chips{display:flex;flex-wrap:wrap;gap:8px}
+.chips label{margin:0;position:relative}
+.chips input{position:absolute;opacity:0;width:1px;height:1px}
+.chips span{display:inline-flex;align-items:center;min-height:40px;padding:0 14px;border:1.5px solid #8A7C64;font-weight:400;cursor:pointer;background:#fff}
+.chips input:checked+span{background:var(--ink);border-color:var(--ink);color:var(--sand)}
+.chips input:focus-visible+span{outline:3px solid var(--peacock);outline-offset:2px}
+.quote .btn-call{width:100%;margin-top:24px;min-height:54px;font-size:17px}
+.fine{font-size:14px;color:var(--muted);margin-top:12px}
+.fine a{font-weight:600;color:var(--ink)}
+.hp{position:absolute;left:-9999px}
+.status{margin-top:14px;font-weight:600}
+.status.ok{color:#1C5A4E}
+.status.err{color:#9A3320}
+
+/* build — the one animated moment */
+.build{background:var(--ink);color:var(--sand)}
+.build-in{display:grid;grid-template-columns:minmax(260px,.75fr) 1.25fr;gap:clamp(24px,4vw,56px);align-items:center;min-height:calc(100vh - 69px);min-height:calc(100svh - 69px);padding-top:clamp(24px,4vw,48px);padding-bottom:clamp(24px,4vw,48px)}
+.build h2{font-size:clamp(29px,3.1vw,42px);max-width:17ch;text-wrap:balance}
+.build .sub{color:rgba(239,228,204,.8);margin-top:12px;max-width:38ch}
+.steps{list-style:none;margin:20px 0 0;padding:0}
+.steps li{display:grid;grid-template-columns:44px 1fr;gap:0 12px;padding:9px 0;border-top:1px solid rgba(239,228,204,.26)}
+.steps li:last-child{border-bottom:1px solid rgba(239,228,204,.26)}
+.steps .n{font:400 15px/1.6 var(--display);color:rgba(239,228,204,.62)}
+.steps b{font-weight:600}
+.steps p{grid-column:2;color:rgba(239,228,204,.78);font-size:15px;line-height:1.45}
+.steps li.on{box-shadow:inset 3px 0 0 var(--glow)}
+.steps li.on .n{color:var(--sand)}
+.steps li.on b{color:var(--glow)}
+.stage-row{display:grid;grid-template-columns:3px 1fr;gap:12px}
+.rail{position:relative;background:rgba(239,228,204,.22)}
+.rail i{position:absolute;inset:0;background:var(--glow);transform:scaleY(0);transform-origin:50% 0}
+.stage{position:relative;width:100%;aspect-ratio:4/3;max-height:78vh}
+.stage canvas{width:100%!important;height:100%!important}
+.stage-note{position:absolute;inset:auto 6px 6px auto;font-size:12px;color:var(--sand);background:rgba(16,13,8,.82);padding:3px 8px}
+.no-webgl .stage-row{display:none}
+@media (max-width:900px){
+  .build-in{grid-template-columns:1fr;align-content:start;gap:12px;padding-top:16px;padding-bottom:84px}
+  .build h2{font-size:clamp(26px,6.6vw,38px)}
+  .build .sub{display:none}
+  .stage{aspect-ratio:auto;height:38vh;height:32svh}
+  .stage-col{order:-1;gap:8px}
+  .steps{margin-top:12px}
+  .steps li{padding:7px 0;grid-template-columns:34px 1fr}
+  .steps p{display:none}
+  .steps li.on p{display:block}
+  .build .seq{margin-bottom:8px}
+}
+.steps li{padding-left:10px}
+@media (min-width:901px) and (max-height:880px){.build .sub{display:none}.steps li{padding-top:7px;padding-bottom:7px}}
+.stage-col{display:flex;flex-direction:column;gap:12px;min-width:0}
+.finish{display:flex;flex-wrap:wrap;align-items:center;gap:8px}
+.finish-l{font-size:14px;margin-right:4px}
+.finish-l b{font-weight:600}
+.sw{display:inline-flex;align-items:center;gap:7px;min-height:40px;padding:0 9px 0 5px;border:1.5px solid rgba(239,228,204,.45);background:rgba(16,13,8,.28);font:400 13.5px/1 var(--body);color:var(--sand);cursor:pointer;white-space:nowrap}
+.sw::before{content:"";width:26px;height:26px;background:var(--sw);box-shadow:inset 0 0 0 1px rgba(0,0,0,.3)}
+.sw[aria-pressed=true]{border-color:var(--glow);box-shadow:inset 0 0 0 1.5px var(--glow);font-weight:600}
+.finish-cta{margin-left:auto;font-weight:600;color:var(--glow);text-underline-offset:4px;font-size:15px;white-space:nowrap}
+@media (min-width:901px) and (max-width:1420px){.finish-cta{flex-basis:100%;text-align:right;margin-left:0}}
+.no-webgl .finish{display:none}
+.finish-l .now{display:none}
+@media (max-width:900px){.finish-l .now{display:inline}}
+.picked{margin-top:14px;font-size:15px;background:#F0E7D1;padding:8px 12px;border-left:3px solid var(--peacock)}
+.top-acts{display:flex;gap:10px}
+.top-acts .btn-ghost{display:none}
+@media (min-width:901px){.top-acts .btn-ghost{display:inline-flex}}
+@media (max-width:900px){
+  .stage{height:34vh;height:clamp(144px,100svh - 556px,32svh)}
+  .stage-note{font-size:11px;line-height:1.3;inset:auto 5px 5px auto;padding:2px 6px}
+  .stage-note .long{display:none}
+  .finish-l{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0)}
+  .finish{flex-wrap:nowrap;gap:6px}
+  .sw{min-height:36px;padding:0 4px}
+  .sw span{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0)}
+  .sw::before{width:24px;height:24px}
+  .finish-cta{flex-basis:auto;margin-left:auto;white-space:nowrap;font-size:14px}
+  .finish-cta .long{display:none}
+  .build h2{font-size:25px}
+  .steps li{padding:6px 0 6px 8px;font-size:15px;line-height:1.3}
+  .steps .n{font-size:13px;line-height:1.5}
+  .steps p{font-size:14px;margin-top:2px}
+  .build-in{padding-bottom:76px;padding-top:12px}
+}
+/* short phone screens: the held build section must still clear the fixed call bar */
+@media (max-width:900px) and (max-height:700px){
+  .build .seq{display:none}
+  .build h2{font-size:20px}
+  .steps li{padding-top:5px;padding-bottom:5px}
+  .steps p{font-size:13px;line-height:1.35}
+  .stage{height:clamp(124px,100svh - 556px,32svh)}
+}
+
+/* sections */
+.sec{padding:clamp(64px,9vw,120px) 0;background:var(--sand)}
+.sec-head{display:flex;justify-content:space-between;align-items:end;gap:24px;flex-wrap:wrap;margin-bottom:clamp(32px,5vw,56px)}
+.sec-head h2{font-size:clamp(34px,4.7vw,60px);max-width:15ch}
+.sec-head p{max-width:42ch;color:var(--muted)}
+
+/* what we make: ruled rows */
+.makes{list-style:none;margin:0;padding:0}
+.make{display:grid;grid-template-columns:64px 1fr .9fr;gap:clamp(16px,3vw,40px);padding:clamp(24px,3vw,36px) 0;border-top:2px solid var(--ink);align-items:start}
+.make:last-child{border-bottom:2px solid var(--ink)}
+.make .idx{font:400 18px/1.4 var(--display);color:var(--muted)}
+.make h3{font-size:clamp(26px,3vw,38px)}
+.make p{margin-top:12px;max-width:40ch}
+.make .ask{display:inline-block;margin-top:18px;font-weight:600;color:var(--peacock);text-underline-offset:4px}
+@media (max-width:760px){.make{grid-template-columns:1fr}.make .idx{display:none}}
+
+/* project photos */
+.ph{margin:0}
+.ph img{display:block;width:100%;height:auto;background:#DCD2BC}
+.ph figcaption{font-size:13px;color:var(--muted);margin-top:8px}
+.make .ph{max-width:400px;width:100%;justify-self:end}
+.strip{display:grid;grid-template-columns:repeat(2,1fr);gap:10px;margin-top:10px;max-width:400px;justify-self:end;width:100%}
+.strip .ph figcaption{font-size:12px;margin-top:4px}
+.photos{display:grid;justify-items:end}
+.gap-ph{justify-self:end;width:100%;max-width:400px;padding:22px;border:2px dashed #A5987E;background:var(--paper);font-size:15px}
+.gap-ph b{display:block;font-weight:700;color:var(--peacock)}
+.gap-ph span{display:block;margin-top:6px;color:var(--muted)}
+.gap-ph a{display:inline-block;margin-top:10px;font-weight:600}
+@media (max-width:760px){.make .ph,.strip,.photos,.gap-ph{justify-self:stretch;max-width:none;justify-items:stretch}}
+@media (max-width:760px){.strip .narrow-only{display:block}}
+@media (min-width:761px) and (max-width:900px){.strip .narrow-only{display:none}}
+
+/* reviews */
+.reviews{background:var(--peacock);color:var(--sand)}
+.reviews .sec-head p{color:rgba(239,228,204,.82)}
+.score{display:flex;align-items:baseline;gap:14px}
+.score b{font:400 clamp(64px,8.4vw,116px)/1 var(--display);color:var(--glow);letter-spacing:.01em}
+.score span{max-width:16ch}
+.quotes{display:grid;grid-template-columns:1fr 1fr;gap:clamp(22px,3vw,40px);align-items:start;margin-bottom:clamp(28px,4vw,44px)}
+@media (max-width:860px){.quotes{grid-template-columns:1fr}}
+.q{margin:0;padding-top:20px;border-top:1px solid rgba(239,228,204,.4)}
+.q p{font:400 clamp(21px,2.2vw,29px)/1.26 var(--display);letter-spacing:.005em}
+.q footer{margin-top:14px;font-size:15px;color:rgba(239,228,204,.74)}
+.q .reply{font:400 15px/1.5 var(--body);margin-top:10px;color:rgba(239,228,204,.9)}
+.ask-review{padding-top:20px;border-top:1px solid rgba(239,228,204,.4);max-width:48ch}
+.reviews a{color:var(--glow);font-weight:600}
+.ask-review a{display:inline-block;margin-top:10px}
+.tags{margin-top:14px;font-size:14px;color:rgba(239,228,204,.74)}
+
+/* process */
+.process-wrap{display:grid;grid-template-columns:1.5fr 1fr;gap:clamp(24px,4vw,56px);align-items:start}
+@media (max-width:860px){.process-wrap{grid-template-columns:1fr}}
+.process{list-style:none;margin:0;padding:0;border-top:2px solid var(--ink)}
+.process li{display:grid;grid-template-columns:52px 1fr;gap:0 16px;padding:18px 0;border-bottom:1px solid var(--line)}
+.process .n{font:400 32px/1 var(--display);color:var(--peacock)}
+.process h3{font-size:22px}
+.process p{grid-column:2;margin-top:6px;color:var(--muted);font-size:16px}
+.process-ph{max-width:420px;width:100%}
+
+/* visit / talk-to-us */
+.visit{background:var(--walnut);color:var(--sand)}
+.visit .wrap{display:grid;grid-template-columns:1.2fr 1fr;gap:clamp(32px,5vw,72px);align-items:start}
+@media (max-width:860px){.visit .wrap{grid-template-columns:1fr}}
+.visit h2{font-size:clamp(32px,4.6vw,58px);max-width:14ch}
+.visit .note{margin-top:22px;font-size:18px;max-width:40ch;color:rgba(239,228,204,.9)}
+.visit dl{margin:24px 0 0;display:grid;grid-template-columns:auto 1fr;gap:8px 20px}
+.visit dt{color:var(--glow)}
+.visit dd{margin:0}
+.visit .gap-ph{margin-top:28px;max-width:360px;background:rgba(16,13,8,.22);border-color:rgba(239,228,204,.4);color:rgba(239,228,204,.9)}
+.visit .gap-ph b{color:var(--glow)}
+.visit .gap-ph span{color:rgba(239,228,204,.78)}
+.visit .btn-call{background:var(--glow);color:var(--ink)}
+.visit .btn-call:hover{background:#EFC87E}
+.visit .btn-ghost{color:var(--sand);box-shadow:inset 0 0 0 2px var(--sand)}
+.visit .btn-ghost:hover{background:var(--sand);color:var(--ink)}
+.visit .acts{display:flex;flex-direction:column;gap:12px}
+.visit .acts .btn{width:100%;min-height:56px;font-size:17px}
+.foot{background:var(--ink);color:#C9BE9F;font-size:14px;padding:24px 0 32px}
+.foot .wrap{display:flex;justify-content:space-between;flex-wrap:wrap;gap:12px}
+.foot a{color:#C9BE9F}
+
+/* mobile call bar — mechanism unchanged, colours only */
+.bar{display:none}
+@media (max-width:760px){
+  body{padding-bottom:68px}
+  .bar{display:grid;grid-template-columns:1.2fr 1fr 1fr;position:fixed;left:0;right:0;bottom:0;z-index:30;transform:translate3d(0,0,0);-webkit-backface-visibility:hidden;backface-visibility:hidden;background:var(--ink);padding:8px;gap:8px;padding-bottom:max(8px,env(safe-area-inset-bottom));box-shadow:0 -3px 0 var(--brass)}
+  .bar a{min-height:52px;display:flex;align-items:center;justify-content:center;gap:6px;font-weight:600;text-decoration:none;font-size:15px;color:var(--sand);box-shadow:inset 0 0 0 1.5px #5A5040}
+  .bar a.call{background:var(--sign);box-shadow:none;color:#fff}
+  .bar svg{width:18px;height:18px}
+}
+</style>
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+
+<header class="top">
+  <div class="wrap">
+    <a class="brand" href="#top" aria-label="Empire Interior Design Studio, home">
+      <b>Empire Interior</b>
+      <span lang="hi">एम्पायर इंटीरियर डिजाइन स्टूडियो</span>
+    </a>
+    <nav class="nav" aria-label="Sections">
+      <a href="#build">How a room goes in</a>
+      <a href="#makes">What we make</a>
+      <a href="#reviews">Reviews</a>
+      <a href="#visit">Talk to us</a>
+    </nav>
+    <div class="top-acts">
+      <a class="btn btn-ghost" href="#quote">Get a callback</a>
+      <a class="btn btn-call" href="tel:+919860996046">
+        <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M6.6 10.8a15.1 15.1 0 0 0 6.6 6.6l2.2-2.2c.3-.3.7-.4 1-.2 1.1.4 2.3.6 3.6.6.6 0 1 .4 1 1V20c0 .6-.4 1-1 1A17 17 0 0 1 3 4c0-.6.4-1 1-1h3.5c.6 0 1 .4 1 1 0 1.3.2 2.5.6 3.6.1.3 0 .7-.2 1z"/></svg>
+        <span>Call<span class="num"> 098609 96046</span></span>
+      </a>
+    </div>
+  </div>
+</header>
+
+<main id="main">
+<section class="hero" id="top" aria-labelledby="hero-h">
+  <div class="wrap">
+    <div>
+      <p class="seq">Design · Site visit</p>
+      <h1 id="hero-h">Designed around your rooms, <em>lit for your evenings.</em></h1>
+      <p class="lede">Empire Interior Design Studio plans and fits full-home interiors for flats in and around Pune — feature walls, lit niches, wardrobes, false ceilings, and the kind of joinery that folds a dining table flat against the wall.</p>
+      <div class="proof">
+        <span><span class="stars" aria-hidden="true">★★★★★</span> <b>5.0</b> from <a href="https://www.google.com/maps/place/?q=place_id:ChIJ895kbyQuE20R21FoXTAyogU" target="_blank" rel="noopener">20 Google reviews</a></span>
+        <span>Open Mon–Sat, 10am–8pm · across Pune</span>
+      </div>
+      <div class="hero-actions">
+        <a class="btn btn-call" href="tel:+919860996046">
+          <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M6.6 10.8a15.1 15.1 0 0 0 6.6 6.6l2.2-2.2c.3-.3.7-.4 1-.2 1.1.4 2.3.6 3.6.6.6 0 1 .4 1 1V20c0 .6-.4 1-1 1A17 17 0 0 1 3 4c0-.6.4-1 1-1h3.5c.6 0 1 .4 1 1 0 1.3.2 2.5.6 3.6.1.3 0 .7-.2 1z"/></svg>
+          Call 098609 96046
+        </a>
+        <a class="btn btn-ghost js-wa" href="https://wa.me/919860996046?text=Hi%2C%20I%27d%20like%20a%20quote%20from%20Empire%20Interior%20Design%20Studio." target="_blank" rel="noopener">
+          <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2zm5.3 14.1c-.2.6-1.3 1.2-1.8 1.2-.5.1-1 .2-3.3-.7-2.8-1.1-4.5-4-4.7-4.2-.1-.2-1.1-1.5-1.1-2.9s.7-2 1-2.3c.2-.3.5-.3.7-.3h.5c.2 0 .4 0 .6.5l.8 2c.1.2.1.4 0 .5l-.4.6-.4.4c-.1.2-.3.3-.1.6.2.3.8 1.3 1.7 2.1 1.2 1 2.1 1.3 2.4 1.5.3.1.5.1.6-.1l.9-1c.2-.3.4-.2.6-.1l1.9.9c.3.1.5.2.5.3.1.1.1.6-.1 1.2z"/></svg>
+          WhatsApp us
+        </a>
+      </div>
+      <figure class="ph hero-ph"><img src="img/feature-teal.webp" width="1200" height="800" alt="A living-room TV feature wall in white reeded panelling with a dark walnut border and warm cove light above, a teal L-shaped sofa and floor-length curtains" loading="lazy" decoding="async"><figcaption>A living-room feature wall, lit from the cove. Photo posted by the studio on Google.</figcaption></figure>
+    </div>
+
+    <form class="quote" id="quote" novalidate aria-labelledby="quote-h">
+      <div class="rib" aria-hidden="true"></div>
+      <div class="quote-in">
+        <h2 id="quote-h">Tell us about your home</h2>
+        <p class="hint">Takes under a minute. Empire will call you back on this number.</p>
+
+        <div class="field">
+          <label for="f-name">Your name</label>
+          <input id="f-name" name="name" type="text" autocomplete="name" required>
+        </div>
+        <div class="field">
+          <label for="f-phone">Mobile number</label>
+          <input id="f-phone" name="phone" type="tel" inputmode="numeric" autocomplete="tel-national" required pattern="[0-9 +\-]{10,15}" placeholder="98xxx xxxxx">
+        </div>
+        <div class="field">
+          <label for="f-need">What do you need?</label>
+          <select id="f-need" name="need">
+            <option>Full-home interior</option>
+            <option>Living room &amp; TV wall</option>
+            <option>Wardrobes &amp; bedrooms</option>
+            <option>False ceiling &amp; lighting</option>
+            <option>Space-saving joinery</option>
+            <option>Modular kitchen</option>
+            <option>Just a consultation</option>
+            <option>Not sure yet</option>
+          </select>
+        </div>
+        <fieldset class="field">
+          <legend>Home type <span class="opt">(optional)</span></legend>
+          <div class="chips">
+            <label><input type="radio" name="homes" value="1 BHK"><span>1 BHK</span></label>
+            <label><input type="radio" name="homes" value="2 BHK"><span>2 BHK</span></label>
+            <label><input type="radio" name="homes" value="3 BHK"><span>3 BHK</span></label>
+            <label><input type="radio" name="homes" value="Bungalow / duplex"><span>Bungalow</span></label>
+          </div>
+        </fieldset>
+        <div class="field">
+          <label for="f-area">Area / society <span class="opt">(optional)</span></label>
+          <!-- GAP: areas served are not on the listing; these placeholders (Tathawade from a review) are until the client confirms the service area -->
+          <input id="f-area" name="area" type="text" autocomplete="address-level3" placeholder="e.g. Tathawade, Wakad, Baner">
+        </div>
+        <p class="picked" hidden>Feature-wall finish you tried in the 3D room: <b></b></p>
+        <input type="hidden" name="finish" value="">
+        <input class="hp" type="text" name="company" tabindex="-1" autocomplete="off" aria-hidden="true">
+
+        <button class="btn btn-call" type="submit">Get my callback</button>
+        <p class="status" role="status" aria-live="polite"></p>
+        <p class="fine">Your number goes only to Empire Interior Design Studio. Rather talk? <a href="tel:+919860996046">Call 098609 96046</a>.</p>
+      </div>
+    </form>
+  </div>
+</section>
+
+<section class="build seam" id="build" aria-labelledby="build-h">
+  <div class="wrap build-in">
+    <div>
+      <p class="seq">Designing</p>
+      <h2 id="build-h">From an empty flat to a room that's lit for the evening.</h2>
+      <p class="sub">Every home is drawn around your walls and how you live. Scroll to watch a living wall go into a bare room — and finish the way a Pune evening does, with a table folded down for dinner.</p>
+      <ol class="steps">
+        <li class="on" data-step="0"><span class="n">01</span><b>Measure &amp; floating console</b><p>The room is measured first, then a floating media console is made to the length of the wall.</p></li>
+        <li data-step="1"><span class="n">02</span><b>The feature wall</b><p>A reeded feature wall goes up behind the TV, in the finish you pick below.</p></li>
+        <li data-step="2"><span class="n">03</span><b>TV &amp; lit niches</b><p>The TV mounts flush, and open niches beside it are built to be lit.</p></li>
+        <li data-step="3"><span class="n">04</span><b>False ceiling &amp; curtains</b><p>A false ceiling drops in with a cove channel, and the floor-length curtains are hung.</p></li>
+        <li data-step="4"><span class="n">05</span><b>Table down, lights on</b><p>The wall table folds down for dinner and the whole room lights up — cove, niches, and a wash along the floor.</p></li>
+      </ol>
+    </div>
+    <div class="stage-col">
+      <div class="stage-row">
+        <div class="rail" aria-hidden="true"><i></i></div>
+        <div class="stage" id="stage" role="img" aria-label="3D illustration of a living room going into an empty flat: the room is measured, a floating console and a reeded feature wall go in, a TV and lit niches are added, a false ceiling and curtains are hung, then a wall-mounted table folds down and the cove, niche and floor lights come on.">
+          <p class="stage-note">3D illustration<span class="long">, not a project photo</span></p>
+        </div>
+      </div>
+      <div class="finish" role="group" aria-labelledby="finish-l">
+        <span class="finish-l" id="finish-l">Feature wall<span class="now">: <b id="finish-now">Walnut flute</b></span></span>
+        <button type="button" class="sw" data-key="walnut" data-finish="Walnut flute" aria-pressed="true" style="--sw:repeating-linear-gradient(90deg,#7A4F2C 0 3px,#5A3A22 3px 5px)"><span>Walnut flute</span></button>
+        <button type="button" class="sw" data-key="white" data-finish="White flute" aria-pressed="false" style="--sw:repeating-linear-gradient(90deg,#EDEAE2 0 3px,#D5CFC2 3px 5px)"><span>White flute</span></button>
+        <button type="button" class="sw" data-key="grey" data-finish="Grey flute" aria-pressed="false" style="--sw:repeating-linear-gradient(90deg,#97948F 0 3px,#79766F 3px 5px)"><span>Grey flute</span></button>
+        <button type="button" class="sw" data-key="marble" data-finish="Marble" aria-pressed="false" style="--sw:#E6E1D6"><span>Marble</span></button>
+        <a class="finish-cta" href="#quote" data-need="Living room &amp; TV wall">Design this<span class="long"> room</span> →</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="sec seam" id="makes" aria-labelledby="makes-h">
+  <div class="wrap">
+    <p class="seq">Fitting</p>
+    <div class="sec-head">
+      <h2 id="makes-h">What Empire makes</h2>
+      <p>Full homes, room by room. Every photo below was posted by the studio itself on its Google listing.</p>
+    </div>
+    <ol class="makes">
+      <li class="make">
+        <span class="idx">01</span>
+        <div>
+          <h3>Living rooms &amp; TV feature walls</h3>
+          <p>A reeded feature wall behind the TV — walnut, white or grey — with a floating console, open niches built to be lit, and a cove channel in the false ceiling washing the wall warm.</p>
+          <a class="ask" href="#quote" data-need="Living room &amp; TV wall">Get a callback for this →</a>
+        </div>
+        <div class="photos">
+          <figure class="ph"><img src="img/feature-grey.webp" width="1200" height="800" alt="Living room with a grey reeded TV feature wall, a round marble medallion, warm cove lighting overhead and a grey tufted sofa" loading="lazy" decoding="async"><figcaption>A grey reeded feature wall with a lit medallion</figcaption></figure>
+          <div class="strip">
+            <figure class="ph"><img src="img/niche-console.webp" width="900" height="1125" alt="A TV unit with open lit niches, a floating console under-lit, beige floor-length curtains and a marble floor" loading="lazy" decoding="async"><figcaption>Lit niches and a floating console</figcaption></figure>
+            <figure class="ph"><img src="img/living-niche.webp" width="900" height="1125" alt="Living-dining room with a wall of open shelf niches lit from within, a false ceiling cove and beige curtains" loading="lazy" decoding="async"><figcaption>A wall of lit shelves</figcaption></figure>
+          </div>
+        </div>
+      </li>
+      <li class="make">
+        <span class="idx">02</span>
+        <div>
+          <h3>The table that folds into the wall</h3>
+          <p>Empire's space-saving trick: a dining table hinged inside a slim wall cabinet. Folded, it's a panel with a clock on it; swung down, it seats the family — and tucks flat again after dinner. Handy in a compact 2 BHK.</p>
+          <a class="ask" href="#quote" data-need="Space-saving joinery">Get a callback for this →</a>
+        </div>
+        <div class="photos">
+          <figure class="ph"><img src="img/table-open.webp" width="900" height="1125" alt="A wall-mounted dining table folded down and open, with a cream cabinet, a walnut frame, a decorative wall clock above and a glossy marble floor" loading="lazy" decoding="async"><figcaption>The wall table swung down for dinner</figcaption></figure>
+          <div class="strip">
+            <figure class="ph"><img src="img/table-folded.webp" width="900" height="1125" alt="The same wall cabinet with the table folded flat against the wall, reading as a panel with a round clock" loading="lazy" decoding="async"><figcaption>Folded flat again afterwards</figcaption></figure>
+            <figure class="ph narrow-only"><img src="img/feature-grey.webp" width="1200" height="800" alt="A grey reeded TV feature wall with warm cove lighting" loading="lazy" decoding="async"><figcaption>A feature wall in the same home</figcaption></figure>
+          </div>
+        </div>
+      </li>
+      <li class="make">
+        <span class="idx">03</span>
+        <div>
+          <h3>Wardrobes &amp; bedrooms</h3>
+          <p>Sliding wardrobes in cream with a walnut frame, bedroom storage and false ceilings. One readable review mentions a full 2 BHK fit-out, bedrooms included.</p>
+          <a class="ask" href="#quote" data-need="Wardrobes &amp; bedrooms">Get a callback for this →</a>
+        </div>
+        <div class="photos">
+          <figure class="ph"><img src="img/wardrobe.webp" width="900" height="1125" alt="A bedroom sliding wardrobe in cream with a walnut-framed mirror panel and a false ceiling above" loading="lazy" decoding="async"><figcaption>A cream sliding wardrobe with a walnut frame</figcaption></figure>
+          <!-- GAP: only one bedroom photo among the owner uploads. Ask the client for more. -->
+          <div class="gap-ph" role="note"><b>More bedroom photos to come</b><span>There is one finished-bedroom photo on the Google listing so far. Ask the studio to send more and they go straight in here.</span><a href="#quote">Ask about bedrooms →</a></div>
+        </div>
+      </li>
+      <li class="make">
+        <span class="idx">04</span>
+        <div>
+          <h3>Entrances, niches &amp; the finishing</h3>
+          <p>The parts that make a flat feel finished: a safety door with a scalloped grille, framed wall panels with picture lights, cove reveals and the small lit details.</p>
+          <a class="ask" href="#quote" data-need="Full-home interior">Get a callback for this →</a>
+        </div>
+        <div class="photos">
+          <figure class="ph"><img src="img/foyer-door.webp" width="900" height="1125" alt="A dark walnut safety door with a tall art-deco scalloped metal grille backlit from inside, and a brass pull handle" loading="lazy" decoding="async"><figcaption>A safety door with an art-deco grille</figcaption></figure>
+          <div class="strip">
+            <figure class="ph"><img src="img/wall-art.webp" width="900" height="1125" alt="A living-room wall with two framed marble-pattern panels flanked by brass picture-light sconces" loading="lazy" decoding="async"><figcaption>Framed panels and brass sconces</figcaption></figure>
+            <figure class="ph narrow-only"><img src="img/empty-handover.webp" width="900" height="1125" alt="An empty living room at handover with floor-length curtains, a cove-lit false ceiling and marble flooring" loading="lazy" decoding="async"><figcaption>A living room at handover</figcaption></figure>
+          </div>
+        </div>
+      </li>
+    </ol>
+  </div>
+</section>
+
+<section class="sec reviews seam" id="reviews" aria-labelledby="reviews-h">
+  <div class="wrap">
+    <p class="seq">Handover</p>
+    <div class="sec-head">
+      <div class="score"><b>5.0</b><span>from 20 Google reviews</span></div>
+      <h2 id="reviews-h" style="max-width:13ch">Said after handover</h2>
+    </div>
+    <div class="quotes">
+      <blockquote class="q">
+        <p>“He works with a very experienced and expert team and brings new ideas. He doesn't force his ideas on his client but collaborates with them as per their budget.”</p>
+        <footer>Abhijeet P. · Local Guide · Google review, a year ago</footer>
+      </blockquote>
+      <blockquote class="q">
+        <p>“Thank you for creative interior work. Excellent designer, never ever seen before.”</p>
+        <footer>Omkar D. · Local Guide · Google review, a year ago</footer>
+        <p class="reply">Reply from the studio: “Thanks for your wonderful review 😊”</p>
+      </blockquote>
+      <blockquote class="q">
+        <p>“They listened to my needs, offered great suggestions, and created a beautiful, cohesive space. The entire experience was smooth and enjoyable. I highly recommend their expertise.”</p>
+        <footer>Prasad A. · Google review, a year ago</footer>
+        <p class="reply">Reply from the studio: “Thank you for your wonderful review 😊”</p>
+      </blockquote>
+    </div>
+    <div class="ask-review">
+      <p>Google groups these reviews under <b>2BHK flat interiors</b>, <b>creativity</b>, <b>expertise</b> and a <b>smooth, enjoyable experience</b>.</p>
+      <p class="tags">Quoted exactly as written. Three of the twenty reviews are readable without a Google sign-in; the rest need one.</p>
+      <a href="https://www.google.com/maps/place/?q=place_id:ChIJ895kbyQuE20R21FoXTAyogU" target="_blank" rel="noopener">Read all 20 on Google →</a>
+    </div>
+  </div>
+</section>
+
+<section class="sec seam" id="process" style="background:var(--paperdeep)" aria-labelledby="process-h">
+  <div class="wrap">
+    <div class="sec-head">
+      <h2 id="process-h">First call to handover, in four steps</h2>
+      <p>How long each step takes depends on the home. Ask on the call.</p>
+    </div>
+    <div class="process-wrap">
+      <ol class="process">
+        <li><span class="n">1</span><h3>Call or send the form</h3><p>Tell the studio what you need and where the flat is.</p></li>
+        <li><span class="n">2</span><h3>Site visit &amp; measure</h3><p>The rooms are measured wall by wall, with your furniture and routines in mind.</p></li>
+        <li><span class="n">3</span><h3>Design &amp; approve</h3><p>You see the layout, the finishes and the lighting, and fix them before anything is built.</p></li>
+        <li><span class="n">4</span><h3>Make, fit &amp; hand over</h3><p>Joinery is made, fitted and handed over — reviewers describe a team that works to the budget.</p></li>
+      </ol>
+      <figure class="ph process-ph"><img src="img/empty-handover.webp" width="900" height="1125" alt="An empty living room at handover: floor-length curtains, a cove-lit false ceiling, framed wall panels and a marble floor" loading="lazy" decoding="async"><figcaption>A living room at handover — one of the studio's own photos on Google.</figcaption></figure>
+    </div>
+  </div>
+</section>
+
+<section class="sec visit seam" id="visit" aria-labelledby="visit-h">
+  <div class="wrap">
+    <div>
+      <p class="seq">Talk to us</p>
+      <h2 id="visit-h">Design-led, and we come to you.</h2>
+      <p class="note">Empire is listed without a walk-in showroom. Call or WhatsApp and the studio arranges a site visit to measure your flat.</p>
+      <dl>
+        <dt>Open</dt><dd>Mon – Sat, 10am – 8pm (closed Sunday)</dd>
+        <dt>Phone</dt><dd><a href="tel:+919860996046">098609 96046</a></dd>
+        <dt>WhatsApp</dt><dd><a class="js-wa" href="https://wa.me/919860996046?text=Hi%2C%20I%27d%20like%20a%20quote%20from%20Empire%20Interior%20Design%20Studio." target="_blank" rel="noopener">098609 96046</a></dd>
+        <dt>Serves</dt><dd>Pune &amp; nearby — ask on the call</dd>
+      </dl>
+      <!-- GAP: no street address on the listing. If there is a studio to visit, it goes here. -->
+      <div class="gap-ph" role="note"><b>Studio address to confirm</b><span>Empire is listed without a street address. If there's a studio or office to visit, its address and a map pin go here.</span></div>
+    </div>
+    <div class="acts">
+      <a class="btn btn-call" href="tel:+919860996046">Call 098609 96046</a>
+      <a class="btn btn-ghost js-wa" href="https://wa.me/919860996046?text=Hi%2C%20I%27d%20like%20a%20quote%20from%20Empire%20Interior%20Design%20Studio." target="_blank" rel="noopener">WhatsApp us</a>
+      <a class="btn btn-ghost" href="https://www.google.com/maps/place/?q=place_id:ChIJ895kbyQuE20R21FoXTAyogU" target="_blank" rel="noopener">See Empire on Google Maps</a>
+      <a class="btn btn-ghost" href="#quote">Back to the callback form</a>
+    </div>
+  </div>
+</section>
+</main>
+
+<footer class="foot">
+  <div class="wrap">
+    <span>© <span id="yr">2026</span> Empire Interior Design Studio · Interior design for homes across Pune</span>
+    <!-- GAP: no Instagram/Facebook handle and no website (other than WhatsApp) found on the listing. Ask the client; link it here. -->
+    <a href="https://www.google.com/maps/place/?q=place_id:ChIJ895kbyQuE20R21FoXTAyogU" target="_blank" rel="noopener">All 65 photos on Google</a>
+  </div>
+</footer>
+
+<nav class="bar" aria-label="Quick contact">
+  <a class="call" href="tel:+919860996046"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M6.6 10.8a15.1 15.1 0 0 0 6.6 6.6l2.2-2.2c.3-.3.7-.4 1-.2 1.1.4 2.3.6 3.6.6.6 0 1 .4 1 1V20c0 .6-.4 1-1 1A17 17 0 0 1 3 4c0-.6.4-1 1-1h3.5c.6 0 1 .4 1 1 0 1.3.2 2.5.6 3.6.1.3 0 .7-.2 1z"/></svg>Call now</a>
+  <a class="js-wa" href="https://wa.me/919860996046?text=Hi%2C%20I%27d%20like%20a%20quote%20from%20Empire%20Interior%20Design%20Studio." target="_blank" rel="noopener">WhatsApp</a>
+  <a href="#quote">Get callback</a>
+</nav>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+<script type="importmap">{"imports":{"three":"https://cdn.jsdelivr.net/npm/three@0.160.0/build/three.module.js"}}</script>
+
+<!-- Keep the mobile call bar on the visible bottom edge while the browser toolbar shows/hides
+     (same mechanism as the Bhumi site) -->
+<script>
+(function(){
+  const bar = document.querySelector('.bar'); const vv = window.visualViewport;
+  if (!bar || !vv) return;
+  let raf = 0;
+  function fix() {
+    raf = 0;
+    if (Math.abs(vv.scale - 1) > 0.01) { bar.style.transform = ''; return; }   // user pinch-zoomed: leave it
+    const gap = Math.round(window.innerHeight - vv.height - vv.offsetTop);
+    bar.style.transform = gap > 0 ? `translate3d(0,${-gap}px,0)` : 'translate3d(0,0,0)';
+  }
+  const queue = () => { if (!raf) raf = requestAnimationFrame(fix); };
+  vv.addEventListener('resize', queue); vv.addEventListener('scroll', queue);
+  addEventListener('scroll', queue, { passive: true }); addEventListener('resize', queue);
+  fix();
+})();
+</script>
+
+<!-- Lead form + finish picker (no animation) -->
+<script>
+// Paste the Apps Script web-app URL here (see apps-script.gs). Empty = mockup mode.
+const FORM_ENDPOINT = "";
+const WA_NUM = "919860996046";   // GAP: confirm this number is on WhatsApp (the listing's own "website" points to it)
+
+document.getElementById('yr').textContent = new Date().getFullYear();
+
+(function(){
+  const form = document.getElementById("quote"); const f = form.elements;
+  const status = form.querySelector('.status');
+  const btn = form.querySelector('button[type=submit]');
+  const picked = form.querySelector('.picked');
+  const finishLabel = document.getElementById('finish-now');
+
+  function waText(extra) {
+    let t = "Hi, I'd like a quote from Empire Interior Design Studio.";
+    if (f.finish.value) t += " I liked the " + f.finish.value + " feature wall.";
+    return "https://wa.me/" + WA_NUM + "?text=" + encodeURIComponent(t + (extra || ""));
+  }
+  function refreshWA() { document.querySelectorAll('.js-wa').forEach(a => a.href = waText()); }
+
+  // "Get a callback for this" links prefill the form
+  document.querySelectorAll('[data-need]').forEach(a => a.addEventListener('click', () => {
+    f.need.value = a.dataset.need;
+    setTimeout(() => f.name.focus(), 50);
+  }));
+
+  // finish picker: instant swap, no transition
+  const sws = [...document.querySelectorAll('.sw')];
+  sws.forEach(b => b.addEventListener('click', () => {
+    sws.forEach(x => x.setAttribute('aria-pressed', String(x === b)));
+    f.finish.value = b.dataset.finish;
+    finishLabel.textContent = b.dataset.finish;
+    picked.hidden = false; picked.querySelector('b').textContent = b.dataset.finish;
+    refreshWA();
+    if (window.empirePaint) window.empirePaint(b.dataset.key);
+  }));
+
+  form.addEventListener('submit', async (e) => {
+    e.preventDefault();
+    status.className = 'status'; status.textContent = '';
+    const name = f.name.value.trim();
+    const phone = f.phone.value.replace(/\D/g,'').slice(-10);
+    if (!name) { status.textContent = 'Please add your name.'; status.classList.add('err'); f.name.focus(); return; }
+    if (phone.length !== 10) { status.textContent = 'Please enter a 10-digit mobile number.'; status.classList.add('err'); f.phone.focus(); return; }
+    if (f.company.value) return; // bot
+    const data = new URLSearchParams({
+      name, phone, need: f.need.value,
+      homes: (form.querySelector('input[name=homes]:checked')||{}).value || '',
+      finish: f.finish.value, area: f.area.value.trim(), page: location.href
+    });
+    btn.disabled = true; btn.textContent = 'Sending…';
+    try {
+      if (FORM_ENDPOINT) await fetch(FORM_ENDPOINT, { method:'POST', mode:'no-cors', body:data });
+      const first = name.split(' ')[0];
+      status.textContent = FORM_ENDPOINT
+        ? `Thanks ${first}. Empire will call you on ${phone}. `
+        : `Thanks ${first}! This is a preview. On the live site your request goes straight to Empire Interior Design Studio. `;
+      const wa = document.createElement('a');
+      wa.href = waText(" My name is " + name + ". Sending photos of my flat.");
+      wa.target = '_blank'; wa.rel = 'noopener';
+      wa.textContent = 'Want a faster quote? Send photos of the space on WhatsApp →';
+      status.append(document.createElement('br'), wa);
+      status.classList.add('ok');
+      form.reset(); picked.hidden = true;
+    } catch (err) {
+      status.innerHTML = 'That didn’t go through. Please call <a href="tel:+919860996046">098609 96046</a>.';
+      status.classList.add('err');
+    } finally { btn.disabled = false; btn.textContent = 'Get my callback'; }
+  });
+})();
+</script>
+
+<!-- The one animated moment: a living room goes into an empty flat on scroll, the step list
+     advances and the progress rail fills, all from one ScrollTrigger progress value. The
+     signature is the last step: the wall-mounted table folds down (rotation) while the cove,
+     niche and floor lights ramp up (opacity). The pin/scrub is set up immediately; Three.js
+     loads only when the section is near. -->
+<script type="module">
+const stage = document.getElementById('stage');
+const steps = [...document.querySelectorAll('.steps li')];
+const rail = document.querySelector('.rail i');
+const reduce = matchMedia('(prefers-reduced-motion: reduce)').matches;
+const mobile = matchMedia('(max-width: 900px)').matches;
+
+let progress = reduce ? 1 : 0;
+let apply = () => {};
+let current = -1;
+function setStep(p) {
+  const idx = Math.min(4, Math.floor(p * 5));
+  if (idx !== current) { current = idx; steps.forEach((li, i) => li.classList.toggle('on', i === idx)); }
+}
+const setRail = (p) => { if (rail) rail.style.transform = `scaleY(${p})`; };
+
+if (!reduce && window.gsap && window.ScrollTrigger) {
+  gsap.registerPlugin(ScrollTrigger);
+  const proxy = { p: 0 };
+  gsap.to(proxy, {
+    p: 1, ease: 'none',
+    onUpdate: () => { progress = proxy.p; setStep(progress); setRail(progress); apply(progress); },
+    scrollTrigger: {
+      trigger: '#build',
+      start: () => 'top ' + document.querySelector('.top').offsetHeight + 'px',
+      end: () => '+=' + Math.round(innerHeight * (mobile ? 2.2 : 3)),
+      pin: true, scrub: .6, invalidateOnRefresh: true
+    }
+  });
+} else {
+  setStep(1); setRail(1);
+}
+
+const io = new IntersectionObserver((es) => {
+  if (es.some(e => e.isIntersecting)) { io.disconnect(); init(); }
+}, { rootMargin: '900px 0px' });
+io.observe(stage);
+
+function fail() { document.documentElement.classList.add('no-webgl'); }
+
+async function init() {
+  let THREE;
+  try { THREE = await import('three'); } catch (e) { fail(); return; }
+  let renderer;
+  try { renderer = new THREE.WebGLRenderer({ antialias: true, alpha: true }); } catch (e) { fail(); return; }
+
+  renderer.setPixelRatio(Math.min(devicePixelRatio, mobile ? 1.75 : 2));
+  renderer.outputColorSpace = THREE.SRGBColorSpace;
+  renderer.shadowMap.enabled = true;
+  renderer.shadowMap.type = THREE.PCFSoftShadowMap;
+  renderer.domElement.setAttribute('aria-hidden', 'true');
+  stage.prepend(renderer.domElement);
+
+  // colours read off Empire's own owner photos (see DIRECTION.md §3)
+  const C = { ink:0x21190F, walnut:0x4E3826, brass:0xC0893B, cream:0xEDE7D8, wall:0xF2ECDF,
+              handle:0x2A2622, steel:0xA4A6A6, peacock:0x235E62, white:0xF0ECE3, glow:0xE9B968 };
+
+  // ---------- procedural textures (no image downloads) ----------
+  function canvasTex(w, h, draw, rx = 1, ry = 1) {
+    const c = document.createElement('canvas'); c.width = w; c.height = h;
+    draw(c.getContext('2d'), w, h);
+    const t = new THREE.CanvasTexture(c);
+    t.colorSpace = THREE.SRGBColorSpace; t.wrapS = t.wrapT = THREE.RepeatWrapping; t.repeat.set(rx, ry);
+    t.anisotropy = 4;
+    return t;
+  }
+  const rnd = (a, b) => a + Math.random() * (b - a);
+  function veins(g, w, h, n, alpha) {          // kept faint, or they read as cracks
+    for (let i = 0; i < n; i++) {
+      g.strokeStyle = `rgba(150,136,116,${rnd(alpha * .4, alpha)})`; g.lineWidth = rnd(.6, 2.2);
+      let x = rnd(-w * .2, w), y = rnd(0, h); g.beginPath(); g.moveTo(x, y);
+      for (let k = 0; k < 6; k++) { x += rnd(w * .05, w * .22); y += rnd(-h * .18, h * .18); g.lineTo(x, y); }
+      g.stroke();
+    }
+  }
+  const floorTex = canvasTex(256, 256, (g, w, h) => {   // cream marble, as in their photos
+    g.fillStyle = '#E7E0D2'; g.fillRect(0, 0, w, h);
+    veins(g, w, h, 5, .2);
+    g.strokeStyle = '#D8CFBE'; g.lineWidth = 2;
+    for (let k = 0; k <= 2; k++) { g.beginPath(); g.moveTo(k*128, 0); g.lineTo(k*128, h); g.stroke(); g.beginPath(); g.moveTo(0, k*128); g.lineTo(w, k*128); g.stroke(); }
+  }, 3, 2.4);
+  // one grayscale reed texture so the picker can tint it (white / grey / walnut)
+  const reedTex = canvasTex(64, 64, (g, w, h) => {
+    g.fillStyle = '#EDEAE4'; g.fillRect(0, 0, w, h);
+    for (let x = 0; x < w; x += 8) {
+      const lg = g.createLinearGradient(x, 0, x + 8, 0);
+      lg.addColorStop(0, '#BBB6AD'); lg.addColorStop(.42, '#FFFFFF'); lg.addColorStop(1, '#C7C2B8');
+      g.fillStyle = lg; g.fillRect(x, 0, 8, h);
+    }
+  }, 9, 1);
+  const woodTex = canvasTex(128, 512, (g, w, h) => {    // walnut veneer for frames / console top
+    g.fillStyle = '#5A3A22'; g.fillRect(0, 0, w, h);
+    for (let i = 0; i < 70; i++) { g.strokeStyle = `rgba(${rnd(60,96)|0},${rnd(36,58)|0},${rnd(16,30)|0},${rnd(.18,.5)})`; g.lineWidth = rnd(.5, 2.2); const x = rnd(0, w); g.beginPath(); g.moveTo(x, 0); for (let y = 0; y <= h; y += 32) g.lineTo(x + Math.sin(y/60 + i) * rnd(1, 4), y); g.stroke(); }
+  });
+  const marbleTex = canvasTex(256, 256, (g, w, h) => {  // veined cream, the marble finish
+    g.fillStyle = '#E6E1D6'; g.fillRect(0, 0, w, h); veins(g, w, h, 7, .34);
+  });
+
+  // ---------- scene ----------
+  const scene = new THREE.Scene();
+  const cam = new THREE.PerspectiveCamera(30, 1, 0.1, 60);
+  scene.add(new THREE.HemisphereLight(0xFFFBF2, 0x8A8178, 1.55));
+  const sun = new THREE.DirectionalLight(0xFFF4E4, 1.9);
+  sun.position.set(4.8, 6.5, 5.5);
+  sun.target.position.set(2.0, .7, 1.0); scene.add(sun.target);
+  sun.castShadow = true;
+  sun.shadow.mapSize.set(mobile ? 1024 : 2048, mobile ? 1024 : 2048);
+  Object.assign(sun.shadow.camera, { left: -3.6, right: 3.6, top: 3.6, bottom: -3.6, near: .5, far: 20 });
+  sun.shadow.bias = -0.0004; sun.shadow.normalBias = 0.02;
+  scene.add(sun);
+  const daylight = new THREE.PointLight(0xEAF4FF, 1.0, 5, 1.5); daylight.position.set(.4, 1.6, 2.0); scene.add(daylight);
+
+  const mat = (color, o = {}) => new THREE.MeshStandardMaterial({ color, roughness: .72, metalness: 0, ...o });
+  const lineMat = () => new THREE.LineBasicMaterial({ color: C.ink, transparent: true, opacity: .3 });
+
+  function box(parent, w, h, d, m, x, y, z, edges = true) {
+    const g = new THREE.BoxGeometry(w, h, d);
+    const mesh = new THREE.Mesh(g, typeof m === 'number' ? mat(m) : m);
+    mesh.position.set(x + w/2, y + h/2, z + d/2);
+    mesh.castShadow = true; mesh.receiveShadow = true;
+    parent.add(mesh);
+    if (edges) { const e = new THREE.LineSegments(new THREE.EdgesGeometry(g), lineMat()); e.position.copy(mesh.position); parent.add(e); }
+    return mesh;
+  }
+  const group = (p) => { const g = new THREE.Group(); (p || scene).add(g); return g; };
+
+  // empty room (static): back wall at z=0, floor, side wall at x=0, a window on the side wall
+  const floor = new THREE.Mesh(new THREE.PlaneGeometry(4.8, 4.0), mat(0xffffff, { map: floorTex, roughness: .3 }));
+  floor.rotation.x = -Math.PI/2; floor.position.set(2.4, 0, 2.0); floor.receiveShadow = true; scene.add(floor);
+  const backWall = new THREE.Mesh(new THREE.PlaneGeometry(4.8, 2.7), mat(C.wall, { roughness: .95 }));
+  backWall.position.set(2.4, 1.35, 0); backWall.receiveShadow = true; scene.add(backWall);
+  const sideWall = new THREE.Mesh(new THREE.PlaneGeometry(4.0, 2.7), mat(C.wall, { roughness: .95 }));
+  sideWall.rotation.y = Math.PI/2; sideWall.position.set(0, 1.35, 2.0); sideWall.receiveShadow = true; scene.add(sideWall);
+  // window on the side wall (daylight through it)
+  const glass = new THREE.Mesh(new THREE.PlaneGeometry(1.0, .95), new THREE.MeshBasicMaterial({ color: 0xD5E7EE }));
+  glass.rotation.y = Math.PI/2; glass.position.set(.006, 1.55, 2.6); scene.add(glass);
+  const frameM = mat(0xF6F2EA);
+  box(scene, .05, .05, 1.08, frameM, 0, 1.06, 2.06, false); box(scene, .05, .05, 1.08, frameM, 0, 2.04, 2.06, false);
+  box(scene, .05, 1.03, .05, frameM, 0, 1.06, 2.06, false); box(scene, .05, 1.03, .05, frameM, 0, 1.06, 3.09, false);
+
+  const items = [];
+  const add = (obj, from, start, dur, fade = true) => items.push({ obj, from, start, dur, fade, base: obj.position.clone() });
+
+  // STEP 01a — measurement lines on the bare back wall, in the brass accent
+  const dims = group();
+  function label(text) {
+    const c = document.createElement('canvas'); c.width = 256; c.height = 96; const g = c.getContext('2d');
+    g.fillStyle = '#EFE4CC'; g.fillRect(8, 16, 240, 64);
+    g.strokeStyle = '#C0893B'; g.lineWidth = 4; g.strokeRect(8, 16, 240, 64);
+    g.fillStyle = '#21190F'; g.font = '700 40px "Mulish", sans-serif'; g.textAlign = 'center'; g.textBaseline = 'middle'; g.fillText(text, 128, 50);
+    const t = new THREE.CanvasTexture(c); t.colorSpace = THREE.SRGBColorSpace;
+    const s = new THREE.Sprite(new THREE.SpriteMaterial({ map: t, transparent: true, depthTest: false }));
+    s.scale.set(.56, .21, 1); s.renderOrder = 10; return s;
+  }
+  function dimLine(a, b, tickDir, text) {
+    const dm = new THREE.LineBasicMaterial({ color: C.brass, transparent: true });
+    const pts = [a, b,
+      a.clone().addScaledVector(tickDir, .08), a.clone().addScaledVector(tickDir, -.08),
+      b.clone().addScaledVector(tickDir, .08), b.clone().addScaledVector(tickDir, -.08)];
+    const l = new THREE.LineSegments(new THREE.BufferGeometry().setFromPoints(pts), dm);
+    dims.add(l);
+    const s = label(text); s.position.copy(a.clone().lerp(b, .5)).add(new THREE.Vector3(0, .1, 0)); dims.add(s);
+  }
+  dimLine(new THREE.Vector3(.9, 2.44, .03), new THREE.Vector3(3.9, 2.44, .03), new THREE.Vector3(0, 1, 0), '360 cm');
+  dimLine(new THREE.Vector3(.03, 2.44, 0), new THREE.Vector3(.03, 2.44, 2.0), new THREE.Vector3(0, 1, 0), '300 cm');
+  add(dims, [0, .25, 0], 0, .35);
+
+  // STEP 01b — the floating media console along the back wall
+  const consoleG = group();
+  const consoleTopM = mat(0xffffff, { map: woodTex, roughness: .4 });   // walnut top
+  box(consoleG, 2.6, .30, .42, mat(C.white, { roughness: .35 }), 1.1, .34, 0);   // white body (floats)
+  box(consoleG, 2.64, .05, .44, consoleTopM, 1.08, .64, -.01);                   // walnut top
+  add(consoleG, [0, 1.4, 0], .3, .4);
+  // soft under-console glow strip (lights up at the end)
+  const underGlowM = new THREE.MeshBasicMaterial({ color: 0xFFCF8C, transparent: true, opacity: 0 });
+  const underGlow = new THREE.Mesh(new THREE.PlaneGeometry(2.4, .12), underGlowM);
+  underGlow.rotation.x = -Math.PI/2; underGlow.position.set(2.4, .335, .28); scene.add(underGlow);
+
+  // STEP 02 — the reeded feature wall + walnut frame. The picker repaints the panel.
+  const panelMats = [];
+  const panelMake = () => { const m = mat(0xffffff, { map: reedTex, roughness: .4 }); m.map = m.map.clone(); m.map.needsUpdate = true; panelMats.push(m); return m; };
+  const feature = group();
+  const PX = 1.5, PW = 1.6, PY = .72, PH = 1.74;              // the reeded panel
+  const panel = box(feature, PW, PH, .06, panelMake(), PX, PY, .02, false);
+  panel.material.map.repeat.set(PW * 7, 1);
+  // walnut frame: two pilasters + a lintel around the panel
+  const frM = mat(0xffffff, { map: woodTex, roughness: .5 });
+  box(feature, .14, PH + .3, .10, frM, PX - .16, PY - .15, 0);          // left pilaster
+  box(feature, .14, PH + .3, .10, frM, PX + PW + .02, PY - .15, 0);     // right pilaster
+  box(feature, PW + .32, .14, .10, frM, PX - .16, PY + PH + .01, 0);    // top lintel
+  add(feature, [0, 0, -.6], 1.0, .5);
+
+  // STEP 03a — flush TV on the panel
+  const tv = group();
+  box(tv, 1.12, .64, .05, mat(0x0E0E10, { roughness: .35 }), PX + PW/2 - .56, 1.18, .085, false);
+  add(tv, [0, 0, .4], 2.0, .4);
+  // STEP 03b — a tower of three lit open niches to the right of the feature wall
+  const niches = group();
+  const nicheBackM = mat(C.cream, { roughness: .6 });
+  const nicheGlowMats = [];
+  const NX = 3.35;
+  for (let i = 0; i < 3; i++) {
+    const y = .9 + i * .55;
+    box(niches, .5, .5, .34, frM, NX, y, 0);                            // walnut open box
+    const back = new THREE.Mesh(new THREE.PlaneGeometry(.42, .42), mat(C.cream, { roughness: .6, emissive: 0x3A2E18, emissiveIntensity: 0 }));
+    back.position.set(NX + .25, y + .25, .03); niches.add(back); nicheGlowMats.push(back.material);
+    // a small object on each shelf
+    box(niches, .1, .18, .1, mat(i===1?C.peacock:C.brass, { roughness: .5 }), NX + .2, y + .06, .12, false);
+  }
+  add(niches, [.5, 0, 0], 2.25, .45);
+
+  // STEP 04a — false ceiling slab with a cove recess
+  const ceil = group();
+  box(ceil, 4.6, .14, 3.4, mat(C.wall, { roughness: .95 }), .1, 2.56, 0);           // ceiling slab
+  box(ceil, 3.0, .10, .12, mat(C.wall, { roughness: .9 }), 1.0, 2.46, .34);          // cove lip (hides the strip)
+  add(ceil, [0, .5, 0], 3.0, .5);
+  // the warm cove strip behind the lip (lights up at the end)
+  const coveGlowM = new THREE.MeshBasicMaterial({ color: 0xFFD79A, transparent: true, opacity: 0 });
+  const coveGlow = new THREE.Mesh(new THREE.PlaneGeometry(3.0, .12), coveGlowM);
+  coveGlow.position.set(2.5, 2.48, .40); scene.add(coveGlow);
+  // STEP 04b — curtains on the side wall, beside the window
+  const curtains = group();
+  const curtM = mat(0xDCCFB4, { roughness: .95 });
+  for (let i = 0; i < 2; i++) box(curtains, .06, 1.9, .5, curtM, .05, .66, 1.9 + i*.62);
+  add(curtains, [0, .9, 0], 3.2, .5);
+
+  // STEP 05 — the signature: a wall-mounted table that folds down out of a slim cabinet,
+  // then the room lights up. The cabinet comes in during the build; the FOLD is the reveal.
+  const cabX = .55;                                   // slim cabinet on the back wall, left side
+  const cabinet = group();
+  const cabM = mat(C.cream, { roughness: .4 });
+  box(cabinet, .92, 1.7, .16, cabM, cabX, .55, 0);                              // cabinet carcass
+  box(cabinet, .10, 1.7, .18, frM, cabX - .02, .55, 0, false);                  // walnut edge L
+  box(cabinet, .10, 1.7, .18, frM, cabX + .84, .55, 0, false);                  // walnut edge R
+  // a round clock on the upper cabinet face, like their photo
+  const clock = new THREE.Mesh(new THREE.CylinderGeometry(.17, .17, .03, 28), mat(0x15120E, { roughness: .4 }));
+  clock.rotation.x = Math.PI/2; clock.position.set(cabX + .46, 1.75, .18); cabinet.add(clock);
+  add(cabinet, [0, 0, -.5], 1.2, .45);
+  // the fold-down tabletop: a pivot group hinged at the cabinet, child extends +z
+  const tablePivot = group();
+  tablePivot.position.set(cabX + .46, 1.02, .17);
+  const topM = mat(0xF2EFE8, { map: marbleTex, roughness: .35 });
+  const tabletop = new THREE.Mesh(new THREE.BoxGeometry(.82, .035, .66), topM);
+  tabletop.position.set(0, 0, .33); tabletop.castShadow = true; tablePivot.add(tabletop);
+  const leg = new THREE.Mesh(new THREE.BoxGeometry(.04, .95, .04), mat(C.handle));
+  leg.position.set(0, -.47, .6); tablePivot.add(leg);         // support leg (hidden until open)
+  tablePivot.rotation.x = Math.PI/2;                           // start folded flat to the wall
+  // the glow lamps that ramp up at the end
+  const coveLamp = new THREE.PointLight(0xFFCE8C, 0, 4.5, 2); coveLamp.position.set(2.4, 2.35, .7); scene.add(coveLamp);
+  const nicheLamp = new THREE.PointLight(0xFFD79A, 0, 2.6, 2); nicheLamp.position.set(NX + .25, 1.6, .5); scene.add(nicheLamp);
+  const floorLamp = new THREE.PointLight(0xFFCE8C, 0, 3.2, 2); floorLamp.position.set(1.8, .5, .7); scene.add(floorLamp);
+
+  items.forEach(it => { it.mats = []; it.obj.traverse(o => { if (o.material && !o.material.userData.noFade) { o.material.userData.base = o.material.opacity; it.mats.push(o.material); } }); });
+
+  const ease = t => 1 - Math.pow(1 - t, 3);
+  const clamp = t => Math.max(0, Math.min(1, t));
+  const target = new THREE.Vector3(2.0, 1.12, 1.35);
+  let radius = 6.4;
+
+  const foldStart = 4.0, foldDur = .62;      // the table swings down
+  const lightOn  = { start: 4.4, dur: .55 }; // then the room lights up
+
+  apply = function (p) {
+    const t = p * 5;
+    for (const it of items) {
+      const k = ease(clamp((t - it.start) / it.dur));
+      it.obj.position.set(it.base.x + it.from[0]*(1-k), it.base.y + it.from[1]*(1-k), it.base.z + it.from[2]*(1-k));
+      it.obj.visible = k > 0.001;
+      if (it.fade) for (const m of it.mats) {
+        const want = k < .999;
+        if (m.transparent !== want && !m.isLineBasicMaterial && !m.isSpriteMaterial) { m.transparent = want; m.needsUpdate = true; }
+        m.opacity = m.userData.base * k;
+      }
+    }
+    // the fold-down table: appears once its cabinet is in, then rotates folded (PI/2) → open (0)
+    tablePivot.visible = t > 1.15;
+    const fk = ease(clamp((t - foldStart) / foldDur));
+    tablePivot.rotation.x = (Math.PI/2) * (1 - fk);
+    leg.visible = fk > .5;
+    // the lights ramp up
+    const lit = clamp((t - lightOn.start) / lightOn.dur);
+    coveGlowM.opacity = lit; underGlowM.opacity = lit; coveGlowM.needsUpdate = true;
+    nicheGlowMats.forEach(m => { m.emissiveIntensity = lit * 1.1; });
+    coveLamp.intensity = lit * 2.4; nicheLamp.intensity = lit * 1.6; floorLamp.intensity = lit * 1.7;
+    daylight.intensity = 1.0 - lit * .55;        // dusk: daylight dims as the room lights come up
+    // camera: ease round, radius ramps so late additions stay framed
+    const az = .92 - .2 * p, el = .34 + .05 * p, r = radius * (1 + .12 * p);
+    cam.position.set(target.x + Math.sin(az) * r * Math.cos(el), target.y + r * Math.sin(el), target.z + Math.cos(az) * r * Math.cos(el));
+    cam.lookAt(target);
+    renderer.render(scene, cam);
+  };
+
+  // the four finishes, straight off the owner's feature-wall photos (see DIRECTION.md §3)
+  const FIN = {
+    walnut: { color: 0x6B4A2E, map: 'reed', rough: .5  },
+    white:  { color: 0xE9E6DF, map: 'reed', rough: .22 },
+    grey:   { color: 0x8E8C88, map: 'reed', rough: .3  },
+    marble: { color: 0xFFFFFF, map: 'marble', rough: .25 }
+  };
+  window.empirePaint = (key) => {
+    const f = FIN[key]; if (!f) return;
+    for (const m of panelMats) {
+      m.color.setHex(f.color);
+      if (f.map === 'marble') { m.map = marbleTex; }
+      else { m.map = reedTex.clone(); m.map.needsUpdate = true; m.map.repeat.set(PW * 7, 1); }
+      m.roughness = f.rough; m.needsUpdate = true;
+    }
+    apply(progress);
+  };
+  const pressed = document.querySelector('.sw[aria-pressed=true]');
+  if (pressed) window.empirePaint(pressed.dataset.key);
+
+  function size() {
+    const w = stage.clientWidth, h = stage.clientHeight;
+    if (!w || !h) return;
+    renderer.setSize(w, h, false);
+    cam.aspect = w / h;
+    radius = cam.aspect < 1 ? 7.3 : cam.aspect < 1.3 ? 7.0 : 6.4;
+    cam.updateProjectionMatrix();
+    apply(progress);
+  }
+  new ResizeObserver(size).observe(stage);
+  size();
+  setStep(progress);
+}
+</script>
+</body>
+</html>
